@@ -6,16 +6,14 @@ import NavHeader from "./components/NavHeader";
 function App() {
   return (
     <div>
-      <header>
-        {/* NavHeader */}
-        <NavHeader />
+      {/* NavHeader */}
+      <NavHeader />
 
-        {/* CalcButtons */}
-        <CalcButtons />
+      {/* CalcButtons */}
+      <CalcButtons />
 
-        {/* Inputs */}
-        <Inputs />
-      </header>
+      {/* Inputs */}
+      <Inputs />
     </div>
   );
 }
