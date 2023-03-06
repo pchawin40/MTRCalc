@@ -7,6 +7,21 @@ import './CalcButtons';
 const CalcButtons = () => {
   return (
     <>
+      {/* calculate button */}
+      <button
+        id="calculate"
+        className="calc-buttons"
+      >
+        Calculate
+      </button>
+
+      {/* view report */}
+      <button
+        id="view-report"
+        className="calc-buttons"
+      >
+        View Report
+      </button>
     </>
   );
 };
